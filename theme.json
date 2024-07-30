@@ -1,5 +1,7 @@
 {
     "version": 1,
+ 	"details_url": "https://github.com/agskanchana/ekwa",
+ 	"download_url": "https://github.com/agskanchana/ekwa",
     "settings": {
         "color": {
             "palette": [

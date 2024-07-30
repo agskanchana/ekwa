@@ -13,16 +13,16 @@
  use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
  $myUpdateChecker = PucFactory::buildUpdateChecker(
-	 'https://github.com/user-name/repo-name/',
+	 'https://github.com/agskanchana/ekwa/',
 	 __FILE__,
-	 'unique-plugin-or-theme-slug'
+	 'ekwa'
  );
 
  //Set the branch that contains the stable release.
- $myUpdateChecker->setBranch('stable-branch-name');
+ $myUpdateChecker->setBranch('master');
 
  //Optional: If you're using a private repository, specify the access token like this:
- $myUpdateChecker->setAuthentication('your-token-here');
+// $myUpdateChecker->setAuthentication('your-token-here');
 
 if ( ! function_exists( 'ekwa_setup' ) ) :
 
